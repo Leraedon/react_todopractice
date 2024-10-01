@@ -1,0 +1,77 @@
+.todo_box {
+  background: #b5f2df;
+  margin: 8px;
+  height: 48px;
+}
+
+input[type="checkbox"] {
+  display: none;
+  
+}
+
+#todo_checkbox {
+  display: inline-block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  border: 3px #000080 solid;
+  border-radius: 15px;
+  position: relative;
+}
+
+.todo_edit_input {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background: #f8f8f8;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.todo_title {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checked {
+  background: #75ff9e;
+  color: #7882fd;
+}
+
+.buttons {
+  float: right;
+}
+
+.edit_button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 14px;
+  padding-left: 14px;
+  background: #192EA5;
+  color: #f2f2f2;
+  height: 48px;
+}
+
+.save_button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 14px;
+  padding-left: 8.2px;
+  background: #12B829;
+  color: #f2f2f2;
+  height: 48px;
+}
+
+.delete_button {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 10px;
+  background: #CF1616;
+  color: #f2f2f2;
+  height: 48px;
+}
+

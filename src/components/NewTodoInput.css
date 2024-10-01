@@ -1,0 +1,25 @@
+.input_box {
+  width: 425px;
+  display: flex;
+  flex-direction: row;
+  padding: 14px;
+  margin: 19px;
+  border-radius: 7px;
+  background: #C5FFF3;
+}
+
+.input_box input {
+  padding: 10px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  width: 85%;
+  background: #f8f8f8;
+}
+
+.input_box button {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 10px;
+  background: #53EA8D;
+  width: 15%;
+}

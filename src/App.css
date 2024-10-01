@@ -1,5 +1,50 @@
+body {
+  background-color: #AAFFDD;
+}
+
+h1 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  letter-spacing: 1rem;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.title1 {
+  color: #65F1BD;
+}
+
+.title2 {
+  color: #7FF5CC;
+}
+
+.title3 {
+  color: #2972A7;
+}
+
+.title4 {
+  color: #6185BB;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+
+.App button {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.isEmpty {
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  font-size: 22px;
+  color: #c1c1c1;
 }
 
 .App-logo {
